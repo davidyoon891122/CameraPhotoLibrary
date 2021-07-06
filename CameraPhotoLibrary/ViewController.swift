@@ -83,7 +83,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             imagePicker.delegate = self
             imagePicker.sourceType = .photoLibrary
             imagePicker.mediaTypes = [kUTTypeMovie as String]
-            imagePicker.allowsEditing = true
+            imagePicker.allowsEditing = false
             
             present(imagePicker, animated: true, completion: nil)
         }
